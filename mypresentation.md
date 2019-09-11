@@ -62,7 +62,6 @@ My Shiny App
 My Plot
 =========================================================
 - The link of the app is https://anushri.shinyapps.io/My_App/.
-  
-  Overview of app is
+- Overview of app is
   
 ![plot of chunk unnamed-chunk-4](mypresentation-figure/unnamed-chunk-4-1.png)
