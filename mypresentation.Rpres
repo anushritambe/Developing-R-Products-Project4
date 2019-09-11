@@ -1,0 +1,50 @@
+Presentation on My_App
+========================================================
+author: Anushri Tambe
+date:  11/09/2019
+autosize: true
+
+Iris Dataset
+========================================================
+- Iris dataset contains five variables and 150 observations
+- First six rows of dataset are as follows
+```{r,echo=FALSE}
+head(iris)
+```
+
+========================================================
+- There are three different Spicies in the datset as follows
+```{r,echo=FALSE}
+levels(iris$Species)
+```
+- Summary of the dataset is as follows
+```{r,echo=FALSE}
+summary(iris)
+```
+
+My Shiny App
+========================================================
+- Created the shiny app depending on the four variables in the dataset
+
+  a) Sepal.Length
+  
+  b) Sepal.Width
+  
+  c) Petal.Length
+  
+  d) Petal.Width
+- In app we can select the variable whatever we want and we will get the corresponding  histogram.
+- We can also select the no. of bins using provided slider.
+
+
+My Plot
+=========================================================
+- The link of the app is https://anushri.shinyapps.io/My_App/.
+  
+  Overview of app is
+  
+```{r,echo=FALSE}
+library(imager)
+myimg <- load.image("/Users/Anushree Tambe/Desktop/Coursera/Devloping r product/Project 4/Developing-R-Products-Project4/myapp.png")
+plot(myimg)
+```
