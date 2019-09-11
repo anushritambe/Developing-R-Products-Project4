@@ -43,7 +43,7 @@ My Plot
 - Overview of app is
   
 ```{r,echo=FALSE}
-library(imager)
-myapp <- load.image("/Users/Anushree Tambe/Desktop/Coursera/Devloping r product/Project 4/Developing-R-Products-Project4/myapp.png")
-plot(myapp)
+
+knitr::include_graphics('./myapp.png')
+
 ```
