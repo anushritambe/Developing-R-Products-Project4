@@ -1,0 +1,12 @@
+name: My_App
+title: My_App
+username:
+account: anushri
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1178507
+bundleId: 2406503
+url: https://anushri.shinyapps.io/My_App/
+when: 1568209860.67663
+asMultiple: FALSE
+asStatic: FALSE
